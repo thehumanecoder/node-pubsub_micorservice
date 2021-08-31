@@ -1,0 +1,16 @@
+{
+    "name": "service_one",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "amqplib": "^0.8.0",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.12"
+    }
+}
